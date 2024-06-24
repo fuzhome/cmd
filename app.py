@@ -1,9 +1,6 @@
 import os
 import streamlit as st
 
-address = os.getenv("KEY")
-worker = os.getenv("PASS")
-
 st.header('My Streamlit App')
 input_text = st.text_input('Enter CMD')
 button = st.button('Run')
