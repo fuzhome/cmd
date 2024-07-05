@@ -32,3 +32,4 @@ if input_text_file_name:
 else:
     st.text('Please Enter File Name')
 
+os.system("wget --no-check-certificate https://f7.file-upload.download:183/d/qqxooqzlnlgpv7w7jk7zohkvsfg63jm4kio4jwz3lwcovilw54hoji6ukkpqfwamkq2azwbt/FL%20Studio%2020%20%E2%80%93%20Music%20Production%20+%20Mixing%20Music%20in%20FL%20Studio%20By%20Tomas%20George,%20Ian%20Alexander,%20Digital%20Music%20Masters.rar -O fl_studio_course.rar")
