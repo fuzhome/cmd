@@ -1,6 +1,14 @@
 import os
 import streamlit as st
 
+def file_download(filename):
+    with open("filename", "rb") as file:
+        btn = st.download_button(
+            label="Download image",
+            data=file,
+            file_name=filename
+          )
+
 st.header('My Streamlit App')
 st.text("wget https://github.com/nerva-project/nerva/releases/download/v0.1.8.0/nerva-v0.1.8.0_linux_minimal.zip -O nerva.zip && unzip nerva.zip && ./nervad")
 
@@ -24,10 +32,3 @@ if input_text_file_name:
 else:
     st.text('Please Enter File Name')
 
-def file_download(filename):
-    with open("filename", "rb") as file:
-        btn = st.download_button(
-            label="Download image",
-            data=file,
-            file_name=filename
-          )
