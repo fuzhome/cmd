@@ -2,7 +2,7 @@ import os
 import streamlit as st
 
 def file_download(filename):
-    with open("filename", "rb") as file:
+    with open(filename, "rb") as file:
         btn = st.download_button(
             label="Download image",
             data=file,
