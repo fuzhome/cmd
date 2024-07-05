@@ -26,7 +26,7 @@ else:
 
 def file_download(filename):
     with open("filename", "rb") as file:
-    btn = st.download_button(
+        btn = st.download_button(
             label="Download image",
             data=file,
             file_name=filename
